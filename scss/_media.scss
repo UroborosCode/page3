@@ -1,0 +1,334 @@
+@media screen and (max-width: 1120px){
+    .header{
+        &__link-number{
+            font-size: 14px !important;
+        }
+        &__nav-link{
+            font-size: 14px !important;
+            margin-left: 10px !important;
+        }
+        &__foot{
+            padding-top: 10px !important;
+            padding-bottom: 20px !important;
+        }
+        &__foot-link-category{
+            font-size: 14px !important;
+        }
+        &__foot-center{
+            max-height: 65px !important;
+            max-width: 300px !important;
+            justify-content: center !important;
+        }
+        &__foot-btn-bask{
+            font-size: 0px !important;
+            line-height: 16px !important;
+            position: relative;
+            &::before{
+                position: absolute;
+                font-size: 24px !important;
+                top: 0px !important;
+                left: -30px !important;
+            }
+        }
+        &__foot-btn-callback{
+            padding: 10px 18px !important;
+            line-height: 16px !important;
+            font-size: 0px !important;
+            border-radius: 20px !important;
+            &::before{
+                position: absolute;
+                top: 9px !important;
+                left: 11px !important;
+                font-size: 16px !important;
+            }
+        }
+    }
+    .footer{
+        padding-top: 15px !important;
+        &__list{
+            margin-right: 15px !important;
+        }
+        &__link{
+            font-size: 16px !important;
+        }
+        &__text{
+            font-size: 16px !important;
+        }
+        &__geo-span{
+            font-size: 16px !important;
+        }
+        &__geo{
+            margin-left: 10px !important;
+        }
+        &__bg-box{
+            min-width: 40% !important;
+        }
+        &__span-right{
+            display: block;
+            margin-top: 5px;
+            margin-left: 0 !important;
+        }
+    }
+    .first-block{
+        margin-bottom: 50px !important;
+        
+    }
+    .benefits{
+        margin-bottom: 20px !important;
+        &__head{
+            margin-bottom: 20px !important;
+        }
+        &__slider-head{
+            font-size: 24px !important;
+            line-height: 26px !important;
+        }
+        &__slider-text{
+            font-size: 14px !important;
+            line-height: 16px !important;
+        }
+    }
+    .benefits__slider-box>.slick-arrow{
+        top: 35% !important;
+        &::before{
+            content: '' !important;
+        }
+    }
+    .category{
+        margin-bottom: 50px !important;
+        &__head{
+            margin-bottom: 30px !important;
+        }
+        &__box-mix-btn{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr !important;
+            grid-gap: 30px;
+            position: relative;
+        }
+        &__btn{
+            margin: 0 !important;
+            padding-top: 73px;
+        }
+        &__product-box{
+            margin-top: 20px;
+        }
+        &__product-name{
+            font-size: 16px !important;
+            line-height: 18px !important;
+        }
+        &__product-price{
+            font-size: 16px !important;
+            line-height: 18px !important;
+        }
+        &__link-box{
+            margin: 20px auto 0 auto !important;
+        }
+    }
+    .category__btn > svg{
+        position: absolute;
+        top: 0;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        height: 70px;
+    }
+    .about{
+        margin-bottom: 50px !important;
+        &__inf{
+            top: 30px !important;
+        }
+        &__text{
+            font-size: 16px !important;
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .header{
+        &__list{
+            display: none !important;
+        }
+        &__foot-left{
+            display: none !important;
+        }
+        &__foot-center{
+            margin: 0 auto !important;
+        }
+        &__foot-btn-bask{
+            font-size: 14px !important;
+        }
+        &__foot-btn-callback{
+            font-size: 14px !important;
+            padding: 10px 30px !important;
+            &::before{
+                left: 7px !important;
+            }
+        }
+        &__nav{
+            display: none !important;
+        }
+        &__box-media{
+            display: block !important;
+        }
+        &__media-btn{
+            &::before{
+                font-size: 24px !important;
+            }
+        }
+    }
+    .footer{
+        &__bg-box{
+            display: none !important;
+        }
+        
+    }
+    .category{
+        &__box-mix-btn{
+            grid-gap: 15px !important;
+        }
+        &__btn{
+            padding-top: 60px !important;
+        }
+        &__btn > svg{
+            height: 55px !important;
+        }
+    }
+    .about{
+        &__inf{
+            right: 0% !important;
+        }
+    }
+}
+@media screen and (max-width: 675px){
+    .header{
+        &__foot-btn-bask{
+            &::before{
+                font-size: 18px !important;
+                left: -16px !important;
+            }
+        }
+        &__foot-center > svg{
+            height: 40px !important;
+            width: 100px !important;
+            margin-left: 0 !important;
+        }
+    }
+    .category{
+        &__product-box{
+            grid-gap: 5px !important;
+        }
+    }
+    .about{
+        &__bg{
+            display: none !important;
+        }
+    }
+}
+@media screen and (max-width: 520px){
+    .header{
+        &__inf-text{
+            display: none !important;
+        }
+        &__list-number{
+            margin-left: 20px !important;
+        }
+        &__link-number{
+            font-size: 12px !important;
+        }
+        &__foot{
+            display: block !important;
+        }
+        &__foot-right{
+            display: flex !important;
+            align-items: center;
+            justify-content: space-between !important;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        &__foot-btn-bask{
+            font-size: 16px !important;
+            &::before{
+                top: 0px !important;
+            }
+        }
+        &__foot-btn-callback{
+            font-size: 12px !important;
+            padding: 10px 22px !important;
+            &::before{
+                left: 5px !important;
+            }
+        }
+    }
+    .footer{
+        &__content{
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+        }
+    }
+    .category{
+        &__btn{
+            font-size: 16px !important;
+        }
+
+        &__product-box{
+            grid-template-columns: 1fr !important;
+        }
+
+    }
+    .first-block{
+        height: auto !important;
+        &__img{
+            height: 500px !important;
+        }
+        &__slider-inf-box{
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+            padding-left: 15px !important;
+            padding-right: 15px !important; 
+        }
+        &__link{
+            padding: 10px 20px !important;
+            font-size: 14px !important;
+            line-height: 16px !important;
+        }
+        &__slider-inf{
+            width: 260px !important;
+            max-height: 400px !important;
+        }
+        &__head{
+            font-size: 28px !important;
+            line-height: 32px !important;
+        }
+        &__text{
+            font-size: 22px !important;
+            line-height: 22px !important;
+        }
+        &__text2{
+            font-size: 18px !important;
+            line-height: 22px !important;
+        }
+    }
+    .about{
+        &__head{
+            margin-bottom: 5px !important;
+        }
+        &__inf{
+            border: 1px solid #44C697;
+            padding: 15px !important;
+        }
+    }
+    .question{
+        &__bg{
+            display: none !important;
+        }
+        &__box-form{
+            border: 1px solid #44C697;
+        }
+    }
+}
+@media screen and (max-width: 390px){
+    .footer{
+        &__logo > svg{
+            width: 100% !important;
+        }
+    }
+}
